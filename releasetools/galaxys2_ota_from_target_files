@@ -70,13 +70,23 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.ShowProgress(0.5, 0)
   script.Print("")
   script.Print("")
-  script.Print("Slim Roms")
+  script.Print("C-RoM")
   script.Print("")
-  script.Print(" www.slimroms.net  ")
+  script.Print(" www.c-rom.org  ")
   script.Print("")
 
   if OPTIONS.wipe_user_data:
     script.FormatPartition("/data")
+
+  script.Print("                                          ");
+  script.Print("     _____       ______         ___  ___  ");
+  script.Print("    /  __ \      | ___ \        |  \/  |  ");
+  script.Print("    | /  \/ _____| |_/ /  ___   | .  . |  ");
+  script.Print("    | |    |_____|    /  / _ \  | |\/| |  ");
+  script.Print("    | \__/\      | |\ \ | (_) | | |  | |  ");
+  script.Print("     \____/      \_| \_\ \___/  \_|  |_/  ");
+  script.Print("                                          ");
+  script.Print("                                          ");
 
   script.Print("")
   script.Print("Format and Mount System, Mount Data...")
